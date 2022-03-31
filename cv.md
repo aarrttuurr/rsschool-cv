@@ -18,3 +18,32 @@ I'm 22 years old. I started my career as system administrator. But I'd like to t
 - Git & Github;
 - SQL;
 - Windows Setver & Ubuntu server.
+
+## Education & self-education
+- Belarusian State University of Iinformatics and Radioelectronics:  
+    - *Information technologies and management in technical systems*;
+- learn.javascript.ru
+- Coursera:  
+    - *MIPT: HTML & CSS basics*
+
+## Code example
+Peak ***Objectify a URL Query String*** KATA from CODEWARS:
+
+        function convertQueryToMap(query) {
+          let arr = query.split('&');
+          let res = arr.reduce((m, o) => {
+            let vals = o.split(/[.=]/);
+            vals = vals.map(item => unescape(item));
+            let cur = m;
+            vals.forEach((key, i) => {
+              if (i < vals.length - 2) {
+                cur[key] = cur[key] || {};
+                cur = cur[key];
+              } else if (i == vals.length - 2) {
+                cur[key] = vals[vals.length - 1];
+              }
+            });
+            return m;
+          }, {})
+          return res;
+        }

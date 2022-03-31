@@ -22,7 +22,7 @@ I'm 22 years old. I started my career as system administrator. But I'd like to t
 ## Education & self-education
 - Belarusian State University of Iinformatics and Radioelectronics:  
     - *Information technologies and management in technical systems*;
-- learn.javascript.ru
+- [learn.javascript.ru](https://learn.javascript.ru/)
 - Coursera:  
     - *MIPT: HTML & CSS basics*
 
@@ -47,3 +47,6 @@ Peak ***Objectify a URL Query String*** KATA from CODEWARS:
           }, {})
           return res;
         }
+
+## Languages
+- **English** - A2-B1 (according to the online test at [efset](https://www.efset.org/quick-check/)) 
